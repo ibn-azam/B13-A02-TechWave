@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.head-section{
+    width: 1600px;
+    height: 92px;
+    display: flex;
+    justify-content: space-around;
+    background:#1A0B2E;
+    align-items: center;
+    padding: 16px 200px;
+}
+.head-logo1{
+    color: white;
+    font-size: 50px;
+}
+.head-logo2{
+    color: white;
+    font-size: 50px;
+}
+.head-section nav ul{
+    display: flex;
+    gap: 32px;
+    color: white;
+}
+
+.head-btn{
+    /* background: linear-gradient(47deg, 14,5,0,248,1); */
+    background: linear-gradient(90deg,#ffcc33,#ff4ecd,#6a5cff);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10000px;
+    width: 135px;
+    height: 44px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* This is the main section  */
