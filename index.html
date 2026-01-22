@@ -41,37 +41,35 @@
       </button>
     </header>
     <!-- This is the main section  -->
+<!-- This is the main section  -->
     <main>
-      <section class="banner-section">
-        <div class="banner">
-          <img src="./assets/hero-bg.png" alt="" />
-        </div>
-        <div class="microphone">
-          <div class="position">
-            <div class="circle">
-              <img src="./assets/hero-circle.png" alt="" />
+      <section class="bg-[url('./assets/hero-bg.png')] h-[760px] bg-center bg-cover bg-no-repeat flex flex-col items-center justify-center gap-10">
+        <div class="relative">
+          <img src="./assets/hero-circle.png" alt="mic-background" class="size-[350px]">
+          <img src="./assets/microphone.png" alt="microphone" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+           <div class="absolute -top-0 right-10 bg-green-400 animate-pulse text-black px-6 py-2 rounded-full">
+            New
+           </div>
+        </div>  
+
+          <div class="text-center text-white flex flex-col gap-6">
+            <div class="flex flex-col gap-2">
+                <h1 class="text-4xl lg:text-6xl font-extrabold">TechWave</h1>
+                <p>Your daily dose of tech insights, productivity hacks,and personal growth</p>
             </div>
-            <div class="micro">
-              <img src="./assets/microphone.png" alt="" />
-            </div>
+
+              <div class="flex gap-2 justify-center">
+                <button class="bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100% text-white px-5 py-3 rounded-full flex justify-center items-center cursor-pointer">
+                  <span> <i class="fa-brands fa-spotify"></i> </span> 
+                  <span>Listen on Spotify</span>
+                </button>
+
+                <button class="border border-[#00FF88] text-[#00FF88] px-5 py-3 rounded-full cursor-pointer">
+                  <span> <i class="fa-regular fa-envelope"></i> </span> 
+                  <span>Subscribe</span>
+                </button>
+              </div>
           </div>
-          <div class="text">
-            <h2>TechWave</h2>
-            <p>
-              Your daily dose of tech insights, productivity hacks, and personal
-              growth
-            </p>
-            <div class="btn-banner">
-              <button class="btn-spotify">
-                <span><img src="./assets/spotify.png" alt="" /></span> Listen To
-                Spotify
-              </button>
-              <button class="btn-message">
-                <span><img src="./assets/message.png" alt="" /></span> Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
 
@@ -112,35 +110,9 @@
 
     <!-- This is the TechWave Section   -->
 
-    <section>
-        <div class="grid grid-cols-3 grid-rows-4  ">
-            <h2 class="text-center col-span-3 font-bold text-[48px]">Why Choose TechWave</h2>
-            <div class="wave-1 row-span-2 w-[380px] h-[480px] ">
-                <img src="./assets/headphone.png" alt="">
-                <h4>Premium Audio Quality</h4>
-                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="col-span-2 w-[490px] h-[225px]">
-                <img src="./assets/headphone.png" alt="">
-                <h4>Premium Audio Quality</h4>
-                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="col-span-2 w-[490px] h-[225px]">
-                <img src="./assets/headphone.png" alt="">
-                <h4>Premium Audio Quality</h4>
-                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="col-span-2 w-[490px] h-[275px]">
-                <img src="./assets/headphone.png" alt="">
-                <h4>Premium Audio Quality</h4>
-                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="sec-1 w-[380px] h-[273px] ">
-                <img src="./assets/headphone.png" alt="">
-                <h4>Premium Audio Quality</h4>
-                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-        </div>
-    </section>
+    
+<!-- This is the Featured section  -->
+
+    
   </body>
 </html>
