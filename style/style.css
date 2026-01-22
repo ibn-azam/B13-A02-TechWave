@@ -46,3 +46,124 @@
 }
 
 /* This is the main section  */
+
+.microphone{
+    width: 550px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;  
+}
+
+.position{
+    position: relative;
+}
+.micro{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.banner{
+    
+    width: 1600px;
+    height: 760px;
+    position: relative;
+}
+.microphone{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.btn-spotify{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    background: linear-gradient(90deg,#ffcc33,#ff4ecd,#6a5cff);
+    padding: 12px 16px;
+    border-radius: 10000px;
+    width: 200px;
+    height: 44px;
+}
+.btn-message{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 16px;
+    border-radius: 10000px;
+    width: 147px;
+    height: 44px;
+    color: #00FF88;
+    border: 2px solid #00FF88;
+}
+.btn-banner{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+.text h2{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+.text p{
+    font-size: 16px;
+    color: #ffffff;
+}
+/* This is the podcast section  */
+.bg-podcast{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 650px;
+}
+.podcast-section{
+    text-align: center;
+    width: 1200px;
+    height: 300px;
+    color:white;
+    margin: 0 auto;
+}
+.podcast-section h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: white;
+}
+.podcast-section p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+
+}
+.podcast-section hr{
+    margin-top: 80px;
+}
+.rating-section{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    margin-top: 120px;
+}
+.rating1{
+    text-align: center;
+}
+.rating1 h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #00FF88;
+}
+.rating1 i{
+    font-size: 30px;
+}
+.wave-1{
+    background-color: #351165;
+    border-radius: 40px;
+    
+}

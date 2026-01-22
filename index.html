@@ -1,54 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>TechWave</title>
-</head>
-<body class="inter-font ">
-<!-- This is the header section  -->
+  </head>
+  <body class="inter-font">
+    <!-- This is the header section  -->
     <header class="head-section">
-        <div>
-            <h2><span class="head-logo1">Tech</span><span class="head-logo2">Wave</span></h2>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Episodes</a></li>
-                <li><a href="">Host</a></li>
-            </ul>
-        </nav>
-        <button class="head-btn">Subscribe <span><i class="fa-solid fa-arrow-right"></i></span></button>
+      <div>
+        <h2>
+          <span class="head-logo1">Tech</span
+          ><span class="head-logo2">Wave</span>
+        </h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Episodes</a></li>
+          <li><a href="">Host</a></li>
+        </ul>
+      </nav>
+      <button class="head-btn">
+        Subscribe <span><i class="fa-solid fa-arrow-right"></i></span>
+      </button>
     </header>
-<!-- This is the main section  -->
- <!-- <main>
-    <section>
-        <div class="hero-bg">
-            <img src="./assets/hero-bg.png" alt="">
+    <!-- This is the main section  -->
+    <main>
+      <section class="banner-section">
+        <div class="banner">
+          <img src="./assets/hero-bg.png" alt="" />
         </div>
-        
-            <div class="hero-circle">
-                <img src="./assets/hero-circle.png" alt="">
-                <img src="./assets/microphone.png" alt="">
-                <h4>NEW</h4>
+        <div class="microphone">
+          <div class="position">
+            <div class="circle">
+              <img src="./assets/hero-circle.png" alt="" />
             </div>
-            <div class="hero-text">
+            <div class="micro">
+              <img src="./assets/microphone.png" alt="" />
+            </div>
+          </div>
+          <div class="text">
             <h2>TechWave</h2>
-            <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            <p>
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="btn-banner">
+              <button class="btn-spotify">
+                <span><img src="./assets/spotify.png" alt="" /></span> Listen To
+                Spotify
+              </button>
+              <button class="btn-message">
+                <span><img src="./assets/message.png" alt="" /></span> Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-            <div>
-            <button><span><img src="./assets/spotify.png" alt=""></span> Listen On Spotify</button>
-            <button><span><img src="./assets/message.png" alt=""></span> Subscribe</button>
+    <!-- This is the podcast section -->
+    <section class="bg-podcast">
+      <div class="podcast-section">
+        <h2>About the Podcast</h2>
+        <p>
+          TechWave is your go-to podcast for staying ahead in the fast-paced
+          world of technology. <br> We break down complex topics into digestible
+          insights, explore productivity strategies that actually work, <br> and
+          share stories of personal growth from industry leaders. <br><br><br> Join thousands
+          of young professionals and tech enthusiasts who start their day with
+          TechWave.
+        </p>
+        <hr class="hr">
+      </div>
+      
+      <div class="rating-section">
+        <div class="rating1">
+            <h2>150K+</h2>
+            <p>MONTHLY LISTENER</p>
         </div>
+        <div class="rating1">
+            <h2>200+</h2>
+            <p>EPISODE PUBLISHED</p>
         </div>
-        
+        <div class="rating1 rating-align">
+            <h2>4.9 <span><i class="fa-sharp fa-solid fa-star"></i></span></h2>
+            <p>AVERAGE RATING</p>
+        </div>
+        <div class="rating1">
+            <h2>50+</h2>
+            <p>INDUSTRY EXPERT</p>
+        </div>
+      </div>
     </section>
- </main> -->
-</body>
+
+    <!-- This is the TechWave Section   -->
+
+    <section>
+        <div class="grid grid-cols-3 grid-rows-4  ">
+            <h2 class="text-center col-span-3 font-bold text-[48px]">Why Choose TechWave</h2>
+            <div class="wave-1 row-span-2 w-[380px] h-[480px] ">
+                <img src="./assets/headphone.png" alt="">
+                <h4>Premium Audio Quality</h4>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div class="col-span-2 w-[490px] h-[225px]">
+                <img src="./assets/headphone.png" alt="">
+                <h4>Premium Audio Quality</h4>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div class="col-span-2 w-[490px] h-[225px]">
+                <img src="./assets/headphone.png" alt="">
+                <h4>Premium Audio Quality</h4>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div class="col-span-2 w-[490px] h-[275px]">
+                <img src="./assets/headphone.png" alt="">
+                <h4>Premium Audio Quality</h4>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div class="sec-1 w-[380px] h-[273px] ">
+                <img src="./assets/headphone.png" alt="">
+                <h4>Premium Audio Quality</h4>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+        </div>
+    </section>
+  </body>
 </html>
